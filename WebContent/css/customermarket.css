@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+/*pageHeading*/
+#pageHeading{
+	background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+	height:30px;
+	padding-top:6px;
+	position:relative;
+}
+#pageHeading a{
+	color: #6C6C6C;
+	text-decoration: none;
+	font-size: 13px;
+}
+#pageHeading a:hover{
+	color:#63CEDA;
+}
+/*分*/
+#customerMarket{
+	position:absolute;
+	top:10px;
+	left:70px;
+}
+#shopperLogin{
+	position:absolute;
+	top:10px;
+	right:160px;
+}
+#shoppingCart{
+	position:absolute;
+	top:10px;
+	right:380px;
+	display:none;
+}
+#personalMessage{
+	position:absolute;
+	top:10px;
+	right:270px;
+	display:none;
+}
+
+#customerLogin{
+	position:absolute;
+	top:10px;
+	right:280px;
+}
+#exit{
+	position:absolute;
+	top:10px;
+	right:75px;
+	display:none;
+}
+
+
+
+/*searchDiv*/
+#searchDiv{
+	 height:50px; 
+	 /*border:1px solid #000;*/
+	 margin:20px 0px 0px 100px;
+}
+#searchValue{
+	line-height:25px;
+	width:420px;
+	float:left;
+	height:31px;
+	line-height: 18px;
+	border: solid 2px #2CB0E9;
+	margin-left:320px;
+}
+#search{
+	float:left;
+	width: 140px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+	background:#2CB0E9;
+	color:#fff;
+	font-size:16px;
+}
+/*导航栏样式*/
+.sidebar1 {
+	float:left;
+	width:14%;
+	background:#63CEDA;
+	border:1px solid #fff;
+	color:#fff;
+	margin:0px 20px 20px 70px;
+}
+ul.nav{
+	list-style: none;
+}
+ul.nav li{
+	line-height:45px;
+	text-align:center;
+	/*border:1px solid #000;*/
+	width:inherit;
+}
+ul.nav a{
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	text-decoration:none;
+	color:#fff;
+}
+ul.nav a:hover{ 
+	/*text-decoration:underline;*/
+	background:#2CB0E9;
+}
+#sidebar{
+	/*border:1px solid #F00;*/
+	font-weight:700;
+	font-size:16px;
+	line-height:24px;
+	margin:15px 20px 12px 20px;
+}
+#line{
+	height:1px;
+	background-color:#d9dde1;
+	margin:0px 20px 10px 20px;
+}
+
+
+
+
+/*内容*/
+#content{
+	 background:#F1F1F1; 
+	 height:950px;
+	 margin-top:55px;
+}
+
+
+/*轮播图*/
+#container{
+	width:600px;
+	height:400px;
+	border:1px solid #fff;
+	margin:10px 20px 20px 0px;
+	float:left;
+	overflow: hidden;
+}
+.sections,.section {
+		height:100%;
+}
+.sections{
+	width:400%;
+}
+#container,.sections {
+	position: relative;
+}
+.section {
+	background-color: #000;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+	color: white;
+	width:600px;
+}
+
+
+
+
+
+
+/*猜你喜欢*/
+#listInterestedProduct{
+	 width:300px;
+     height:371px; 
+	 border:1px solid #F1F1F1; 
+	 float:left;
+	 margin:10px 0px 20px 0px;
+	 background:#fff;
+}
+.interestProduct{
+	 border:1px solid #F1F1F1; 
+	 height:60px;
+}
+.interestProduct:hover{
+	border-color:#63CEDA;
+}
+.interestImg{
+	 width:60px; 
+	 height:60px; 
+	 float:left;
+	 margin-right:10px;
+}
+.interestName{
+	 float:left;
+	 width:220px;
+	 font-size:18px;
+	 font-weight:500;
+	 margin:5px 0px 5px 0px;
+	 display:inline-block;
+	 height:25px;
+	 overflow:hidden;
+}
+.interestName:hover{
+	color:#2CB0E9;
+	text-decoration:underline;
+}
+.interestIntroduction{
+	display:inline-block;
+	width:200px;
+	overflow:hidden;
+	height:24px;
+	text-overflow:ellipsis;
+}
+/*排行榜加上架DIV*/
+#doubleDiv{
+	margin-top:430px;
+	/*border:1px solid #090;*/
+	height:450px;
+}
+/*排行榜*/
+#listRankingList{
+	 height:420px; 
+	 width:230px; 
+	 float:left;
+	 margin-left:70px;
+	 background:#fff;
+	 border-radius:20px;
+}
+ul.nav1{
+	list-style: none;
+}
+ul.nav1 li{
+	line-height:35px;
+	/*border:1px solid #000;*/
+	width:inherit;
+	font-size:20px;
+	color:#fff;
+}
+ul.nav1 a{
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作. */
+	text-decoration:none;
+	color:#2CB0E9;
+	padding-left:20px;
+	letter-spacing:2px;
+	height:35px;
+	overflow:hidden;
+}
+ul.nav1 a:hover{ 
+	/*text-decoration:underline;*/
+	color:#3477A9;
+	background:#E4E4E4;
+}
+#sidebar1{
+	/*border:1px solid #F00;*/
+	font-weight:700;
+	font-size:22px;
+	line-height:24px;
+	margin:15px 20px 12px 20px;
+	color:#3477A9;
+}
+#line1{
+	height:1px;
+	background-color:#3477A9;
+	margin:0px 20px 10px 20px;
+}
+/*最近上架*/
+#newTitle{
+	font-size:24px; 
+	font-weight:700;
+	letter-spacing:5px;
+	margin-left:392px;
+}
+#listRecentProduct{
+	height:358px; 
+	width:868px;
+	border:2px solid #E3E3E3;
+	float:left;
+	background:#F7F7F7;
+	padding:10px 0px 0px 18px;
+	margin-left:10px;
+	border-radius:5px;
+	margin-top:20px;
+}
+.newProduct{
+	 border:2px solid #F1F1F1; 
+	 height:160px;
+	 width:130px;
+	 float:left;
+	 background:#fff;
+	 border-radius:10px;
+	 margin-right:10px;
+	 margin-top:8px;
+}
+.newProduct:hover{
+	border-color:#63CEDA;
+}
+.newImg{
+	 width:110px; 
+	 height:110px; 
+	 float:left;
+	 margin:10px 10px 10px 10px;
+}
+.newName{
+	 float:left;
+	 width:110px;
+	 font-size:18px;
+	 font-weight:500;
+	 margin:0px 0px 0px 10px;
+	 font-weight:600;
+	 display:inline-block;
+	 overflow:hidden;
+	 height:25px;
+}
+.newName:hover{
+	color:#3477A9;
+	text-decoration:underline;
+}

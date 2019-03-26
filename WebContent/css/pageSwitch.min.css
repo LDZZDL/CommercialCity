@@ -1,0 +1,41 @@
+.pages li{
+	list-style-type:none;
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	background-color:white
+}
+.pages li:hover{
+	box-shadow:0 0 5px 2px white
+}
+.pages li.active{
+	background-color:orange;
+	box-shadow:0 0 5px 2px orange
+}
+.pages{
+	position:absolute;
+	z-index:999
+}
+.pages.horizontal{
+	left:50%;
+	transform:translateX(-50%);
+	bottom:5px
+}
+.pages.horizontal li{
+	display:inline-block;
+	margin-right:10px
+}
+.pages.horizontal li:last-child{
+	margin-right:0
+}
+.pages.vertical{
+	right:5px;
+	top:50%;
+	transform:translateY(-50%)
+}
+.pages.vertical li{
+	margin-bottom:10px
+}
+.pages.vertical li:last-child{
+	margin-bottom:0
+}

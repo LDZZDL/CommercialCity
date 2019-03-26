@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0;
+	
+}
+form{
+	background:url(../images/9cd606d65f6c6a86ff66a8e9de75d1cf_meitu_3.jpg) no-repeat;
+	border:1px solid #fff;
+	width:500px;
+	height:620px;
+}
+#login{
+	border:1px solid #fff;
+	width:300px;
+	height:250px;
+	margin: 100px auto;
+	background-color:#fff;
+}
+.attribute{
+	line-height:30px;
+	font-size:20px;
+	font-weight:700;
+	margin-right:5px;
+}
+.input{
+	border:1px solid #CCC;
+	line-height:35px;
+	font-size:14px;
+	width:200px;
+}
+.kind{
+	text-align:center;
+	margin:30px 0px 0px 0px;
+	/*border:1px solid #000;*/
+}
+#submit{
+	height:35px;
+	width:240px;
+	background-color:#F30;
+	border:0;
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	cursor:pointer;
+}
+h2{
+	/*border:1px solid #000;*/
+	margin:25px 0px 0px 20px;
+}

@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	padding:35px 0px 0px 40px;
+	/*border:1px solid #000;*/
+}
+#content{
+	margin-top:60px;
+	margin-left:310px;
+	width:60%;
+}
+
+
+
+/*导航栏样式*/
+.sidebar1 {
+	float:left;
+	width: 15%;
+	background:#F8FAFC;
+	border:1px solid #fff;
+	margin:100px 35px 0px 40px;
+}
+ul.nav{
+	list-style: none;
+}
+ul.nav li{
+	line-height:45px;
+	text-align:center;
+	/*border:1px solid #000;*/
+	width:inherit;
+}
+ul.nav a{
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	text-decoration:none;
+	color:#000;
+}
+ul.nav a:hover{ 
+	/*text-decoration:underline;*/
+	background:#f3f5f7;
+	color:#f00;
+}
+#sidebar{
+	/*border:1px solid #F00;*/
+	font-weight:700;
+	font-size:16px;
+	line-height:24px;
+	margin:40px 20px 12px 20px;
+}
+#line{
+	height:1px;
+	background-color:#d9dde1;
+	margin:0px 20px 10px 20px;
+}
+.jiange{
+	margin-left:50px;
+}
+
+
+/*筛选*/
+#screen{
+	height: 33px;
+    background-color: #f5f5f5;
+    border: solid 1px #e8e8e8;
+	padding-top:5px;
+	font-size:14px;
+	color: #6d6d6d;
+	margin-bottom:20px;
+}
+#orderType{
+	margin-right:10px;
+	width:120px;
+	height:28px;
+}
+#time{
+	margin-right:40px;
+	width:120px;
+	height:28px;
+}
+#todayProductQuantity{
+	margin-right:25px;
+	color:#000;
+}
+#todayOrderQuantity{
+	margin-right:25px;
+	color:#000;
+}
+#todaySaleMoney{
+	color:#000;
+}
+
+
+
+/*销售统计*/
+#record{
+	/*border:1px solid #000;*/
+}
+.record{
+	border:1px solid #E8E8E8;
+	height:65px;
+	margin-top:1px;
+}
+.record:hover{
+	border-color:#3992D2;
+}
+.recordImg{
+	width:50px;
+	height:50px;
+	margin:8px 10px 8px 10px;
+	float:left;
+}
+.productName{
+	width:260px;
+	display:inline-block;
+	/*border:1px solid #000;*/
+	margin-top:10px;
+}
+.productSale{
+	width:170px;
+	display:inline-block;
+	/*border:1px solid #000;*/
+}
+.productStock{
+	width:170px;
+	display:inline-block;
+	/*border:1px solid #000;*/
+}
+.sale{
+	width:170px;
+	display:inline-block;
+	/*border:1px solid #000;*/
+}
+
+
+
+/*上下翻页*/
+/*上下翻页按钮*/
+.previousPage,.nextPage{
+	border: 1px solid #dcdcdc;
+	background:#fff;
+	color: #9c9c9c;
+	height: 24px;
+    line-height: 22px;
+	width:65px;
+	font-size:16px;
+	border-radius:3px;
+}
+.previousPage:hover,.nextPage:hover{
+	border-color:#000;
+	color:#000;
+}
+.pageNo,.totalPageNo{
+	font-size:18px;
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.yeshou{
+	height:40px;
+	
+	line-height:40px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:1px solid #999;
+}
+.mypic{
+	margin:10px 0px 0px 20px;
+	width:510px;		
+	border:1px solid #ccc;
+}
+.mypice{
+	margin:10px 0px 0px 20px;
+	width:410px;	
+	border:1px solid #000;
+	font-weight:700;
+}
+span{
+	overflow:hidden;
+    height:15px;
+    margin-right:60px;
+}
+.button{
+	margin:0px 0px 0px 10px;
+}

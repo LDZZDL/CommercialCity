@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	padding:35px 0px 0px 40px;
+	/*border:1px solid #000;*/
+}
+#content{
+	/*border:1px solid #000;*/
+	margin:105px 0px 0px 320px;
+}
+
+/*属性及框*/
+.attribute{
+	line-height:30px;
+	font-size:20px;
+	font-weight:400;
+	/*border:1px solid #000;*/
+	display:inline-block;
+	margin-right:8px;
+	float:left;
+	margin-top:1px;
+	margin-left:8px;
+}
+.input{
+	height:30px;
+}
+
+
+/*每行*/
+.kind{
+	/*border:1px solid #000;*/
+	margin-top:8px;
+}
+
+/*筛选栏*/
+#screen{
+	margin:40px 0px 20px 0px;
+	/*border:1px solid #9F0;*/
+}
+#searchValue{
+	line-height:25px;
+	margin-right:10px;
+	width:120px;
+}
+#priceRangeLeft{
+	line-height:25px;
+	width:35px; 
+	text-align:center;
+}
+#priceRangeRight{
+	line-height:25px;
+	width:35px; 
+	text-align:center;
+	margin-right:18px;
+}
+#orderType{
+	margin-right:10px;
+	width:135px;
+	height:28px;
+}
+
+/*表格样式*/
+table{
+	border:1px solid #E7E7E7;
+	border-collapse:collapse;
+}
+tr{
+	text-align:left;;
+}
+tr:hover{
+	background:#F2F2F2;
+}
+th{
+	border:0;
+	background:#F2F2F2;
+	padding:5px;
+}
+td{
+	padding:4px 5px 5px 5px;
+	border-bottom:1px solid #E7E7E7;
+	border-top:1px solid #E7E7E7;
+	border-left:0;
+	border-right:0;
+}
+.productId{
+	display:none;
+}
+/*修改删除按钮*/
+.alter,.remove,.preview{
+	border:0;
+	background:#fff;
+	color:#4E98CF;
+	font-size:16px;
+	border-radius:2px;
+	margin:0px 5px 0px 5px;
+}
+.alter:hover,.remove:hover,.preview:hover{
+	color:#FF334A;
+}
+.alter{
+	margin-left:15px;
+}
+
+/*按钮*/
+/*上下翻页以及搜索按钮*/
+#searchButton,#previousPage,#nextPage{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:80px;
+	font-size:16px;
+	border-radius:2px;
+}
+#searchButton:hover,#previousPage:hover,#nextPage:hover{
+	background:#F1F1F1;
+	color:#000;
+}
+
+/*上架按钮*/
+#shelf{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:25px;
+	font-size:16px;
+	border-radius:2px;
+}
+#shelf:hover{
+	background:#F1F1F1;
+	color:#000;
+}
+	
+
+.button{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:130px;
+	font-size:16px;
+	border-radius:2px;
+}
+.button:hover{
+	background:#ddd;
+}
+
+
+/*错误信息*/
+.formtips{
+	/*border:1px solid #000;*/
+	color:#F66;
+}
+/*图片的错误信息，加在动态生成的onError里*/
+.pictureError{
+	font-size:16px;
+}
+/*textarea的错误信息*/
+.error{
+	float:right;
+	width:14px;
+	margin-right:45px;
+	margin-top:10px;
+}
+/*导航栏样式*/
+.sidebar1 {
+	float:left;
+	width: 15%;
+	background:#F8FAFC;
+	border:1px solid #fff;
+	margin:100px 65px 0px 40px;
+}
+ul.nav{
+	list-style: none;
+}
+ul.nav li{
+	line-height:45px;
+	text-align:center;
+	/*border:1px solid #000;*/
+	width:inherit;
+}
+ul.nav a{
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	text-decoration:none;
+	color:#000;
+}
+ul.nav a:hover{ 
+	/*text-decoration:underline;*/
+	background:#f3f5f7;
+	color:#f00;
+}
+#sidebar{
+	/*border:1px solid #F00;*/
+	font-weight:700;
+	font-size:16px;
+	line-height:24px;
+	margin:40px 20px 12px 20px;
+}
+#line{
+	height:1px;
+	background-color:#d9dde1;
+	margin:0px 20px 10px 20px;
+}
+.jiange{
+	margin-left:50px;
+}
+
+
+/*盒子样式*/
+/*盒子标题*/
+#heading{
+	font-weight:400;
+	line-height:38px;
+	font-size:22px;
+	color:#666666;
+	margin-left:20px;
+}
+/*关闭盒子按钮*/
+.close_btn{
+	font-size:25px;
+	text-decoration:none;
+	color:#999999;
+	font-weight:bold;
+	float:right;
+	margin-right:10px;
+	margin-top:3px;
+}
+.close_btn:hover{
+	color:#000;
+}
+.box{
+    display:none;
+	position:fixed;
+	left:50%;
+	top:0;
+	background:white;
+	border:2px solid #444;
+	border-radius:7px;
+	z-index:100;
+	width:580px;
+	margin-left:-290px;
+	margin-top:70px;
+}
+#mask{
+	border:none;
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	z-index:99;
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+textarea{
+	width:450px;
+	height:100px;
+	font-size:13px;
+}
+#shelfsubmit{
+	width:42px;
+	height:40px;
+	border:0;
+	background:#A4ECEC;
+	margin-top:65px;
+	border-radius:3px;
+	font-size:15px;
+}
+#shelfsubmit:hover{
+	background:#578BD9;
+	color:#fff;
+}
+/*图片*/
+.file{
+	display:none;
+}
+#img,#img1,#img2,#img3{
+	width:120px;
+	height:120px;
+	border:1px solid #F3F3F3;
+	float:left;
+	position:relative;
+	margin:5px;
+}
+.picture{
+	width:100%;
+	height:100%;
+}
+.picture:hover{
+	background:#CEFFFF;
+}
+.removebtn{
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:11;
+	border:0;
+	border-radius:50px;
+	width:15px;
+	height:15px;
+	color:#000;
+	background:#fff;
+}
+.removebtn:hover{
+	background:#000;
+	color:#fff;
+}
+
+#showimg_shade{
+	position:fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 150;
+	text-align: center;
+	background:#333;
+}
+#showimg{
+	width:800px; 
+	height:600px; 
+	margin-top:100px;
+}

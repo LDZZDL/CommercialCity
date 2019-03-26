@@ -1,0 +1,87 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+#background{
+	background:url(../images/shopregister.jpg) fixed center center no-repeat;
+	width:100%;
+	background-size:cover;
+	border:1px solid #fff;
+}
+h2{
+	padding:15px 0px 15px 15px;
+	/*border:1px solid #000;*/
+}
+.attribute{
+	float:left;
+	line-height:30px;
+	font-size:20px;
+	font-weight:400;
+	color:#fff;
+	/*border:1px solid #fff;*/
+	margin-right:10px;
+}
+
+.input{
+	line-height:30px;
+	border:1px solid #ccf;
+}
+.kind1,.kind2{
+	/*border:1px solid #fff;*/
+	line-height:30px;
+	/*margin:40px 0px 40px 0px;*/	
+}
+#imgbtn{
+		padding: 4px 10px;
+		height: 20px;
+		line-height: 20px;
+		position: relative;
+		color: #888;
+		background: #fafafa;
+		border: 1px solid #000;
+		border-radius: 4px;
+		
+}
+#imgbtn input{
+		position: absolute;
+		line-height:inherit;
+		right: 0;
+		top: 0;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		cursor: pointer;
+}
+#imgbtn:hover{
+		color: #444;
+		background: #eee;
+		border-color: #ccc;
+		text-decoration: none
+}
+.isImg{
+	width: 120px; 
+	height: 120px;
+	position: relative; 
+	float: left;
+	margin-left: 10px;
+	border:1px solid #000;
+}
+#send,#res{
+	border:0;
+	background:#fff;
+	line-height:30px;
+	width:80px;
+	border-radius:10px;
+	margin-left:40px;
+}
+#send:hover,#res:hover{
+	background:#D5D5D5;
+}
+img{
+	border:1px solid #fff;
+}
+.formtips{
+	color:#fff;
+}
+
+	

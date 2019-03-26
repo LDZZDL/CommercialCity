@@ -1,0 +1,491 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	padding:35px 0px 0px 40px;
+	/*border:1px solid #000;*/
+}
+
+/*pageHeading*/
+#pageHeading{
+	background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+	height:30px;
+	padding-top:6px;
+	position:relative;
+}
+#pageHeading a{
+	color: #6C6C6C;
+	text-decoration: none;
+	font-size: 13px;
+}
+#pageHeading a:hover{
+	color:#63CEDA;
+}
+/*分*/
+#customerMarket{
+	position:absolute;
+	top:10px;
+	left:70px;
+}
+#shopperLogin{
+	position:absolute;
+	top:10px;
+	right:160px;
+}
+#shoppingCart{
+	position:absolute;
+	top:10px;
+	right:380px;
+}
+#personalMessage{
+	position:absolute;
+	top:10px;
+	right:270px;
+}
+#exit{
+	position:absolute;
+	top:10px;
+	right:75px;
+}
+
+/*属性及框及下划线*/
+.attribute{
+	line-height:30px;
+	font-size:20px;
+	font-weight:400;
+	/*border:1px solid #000;*/
+	width:90px;
+	display:inline-block;
+	text-align:right;
+	margin-right:10px;
+}
+.input{
+	height:25px;
+}
+.line{
+	height:1px;
+	background-color:#d9dde1;
+	margin-top:10px;
+	width:685px;
+	margin-left:324px;
+}
+/*属性值*/
+.check{
+	/*border:1px solid #393;*/
+	width:180px;
+	text-align:left;
+	display:inline-block;
+	font-size:16px;
+	line-height:25px;
+	margin-bottom:4px;
+}
+/*每行*/
+.kind{
+	/*border:1px solid #000;*/
+	margin-top:10px;	
+}
+
+
+/*按钮*/
+.button{
+	float:right;
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:130px;
+	font-size:16px;
+	border-radius:2px;
+	margin-right:420px;
+}
+.button:hover{
+	background:#F1F1F1;
+	color:#000;
+}
+/*新增收货地址按钮*/
+#addDeliveryAddress{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:25px;
+	font-size:16px;
+	border-radius:2px;
+}
+#addDeliveryAddress:hover{
+	background:#F8FAFC;
+	color:#000;
+}
+
+
+
+
+/*导航栏样式*/
+.sidebar1 {
+	float:left;
+	width: 15%;
+	background:#F8FAFC;
+	border:1px solid #fff;
+	margin:100px 65px 0px 40px;
+}
+ul.nav{
+	list-style: none;
+}
+ul.nav li{
+	line-height:45px;
+	text-align:center;
+	/*border:1px solid #000;*/
+	width:inherit;
+}
+ul.nav a{
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	text-decoration:none;
+	color:#000;
+}
+ul.nav a:hover{ 
+	/*text-decoration:underline;*/
+	background:#f3f5f7;
+	color:#f00;
+}
+#sidebar{
+	/*border:1px solid #F00;*/
+	font-weight:700;
+	font-size:16px;
+	line-height:24px;
+	margin:40px 20px 12px 20px;
+}
+#line{
+	height:1px;
+	background-color:#d9dde1;
+	margin:0px 20px 10px 20px;
+}
+.jiange{
+	margin-left:50px;
+}
+
+
+
+/*表格样式*/
+table{
+	border:1px solid #E7E7E7;
+	border-collapse:collapse;
+}
+tr{
+	text-align:left;
+}
+tr:hover{
+	background:#F2F2F2;
+}
+th{
+	background:#F2F2F2;
+	padding:5px;
+}
+td{
+	padding:4px 5px 5px 5px;
+	border-bottom:1px solid #E7E7E7;
+	border-top:1px solid #E7E7E7;
+	border-left:0;
+	border-right:0;
+}
+.id{
+	display:none;
+}
+/*修改删除按钮*/
+.alter,.remove{
+	border:0;
+	background:#fff;
+	color:#4E98CF;
+	font-size:16px;
+	border-radius:2px;
+	margin:0px 5px 0px 5px;
+}
+.alter:hover,.remove:hover{
+	color:#FF334A;
+}
+.alter{
+	margin-left:15px;
+}
+
+
+/*盒子样式*/
+/*盒子标题*/
+.heading{
+	font-weight:400;
+	line-height:38px;
+	font-size:22px;
+	color:#666666;
+	margin-left:10px;
+}
+/*关闭盒子按钮*/
+.close_btn{
+	font:"幼圆";
+	font-size:20px;
+	text-decoration:none;
+	color:#999999;
+	font-weight:bold;
+	float:right;
+	margin-right:10px;
+	margin-top:8px;
+}
+.close_btn:hover{
+	color:#000;
+}
+/*共同样式*/
+.box{
+    display:none;
+	border:2px solid #444;
+	border-radius:7px;
+	z-index:100;
+	background:#fff;
+}
+#mask{
+	border:none;
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	z-index:99;
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+.onError{
+	color:#f00;
+}
+.onError1{
+	margin-left:105px;
+}
+.onSuccess{
+	color:#3E97F0;
+}
+.onSuccess1{
+	margin-left:105px;
+}
+
+/*各个盒子*/
+/*头像盒子*/
+#displayPictureBox{
+	position:fixed;
+	left:50%;
+	top:170px;
+	width:180px;
+	margin-left:-90px;
+}
+#myfile{
+	display:none;
+}
+#displaypicturesubmit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:40px;
+	margin-bottom:5px;
+}
+#displaypicturesubmit:hover{
+	background:#76DCE4;
+	color:#fff;
+}
+/*基本信息盒子*/
+#basicMessageBox{
+	position:fixed;
+	left:50%;
+	top:150px;
+	width:340px;
+	margin-left:-200px;
+}
+#basicmessagesubmit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:120px;
+	margin-bottom:5px;
+}
+#basicmessagesubmit:hover{
+	background:#76DCE4;
+	color:#fff;
+}
+/*密码盒子*/
+#passwordBox{
+	position:fixed;
+	left:50%;
+	top:170px;
+	width:350px;
+	margin-left:-175px;
+}
+#passwordTestCodeButton{
+	line-height:30px;
+	border:0;
+	background:#ADEFEF;
+	border-radius:4px;
+	margin-left:5px;
+	width:70px;
+	color:#fff;
+}
+#passwordTestCodeButton:hover{
+	background:#DCF8FA;
+	color:#000;
+}
+#passwordsubmit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:120px;
+	margin-bottom:5px;
+}
+#passwordsubmit:hover{
+	background:#76DCE4;
+	color:#fff;
+}
+/*邮箱盒子*/
+#mailBox{
+	position:fixed;
+	left:50%;
+	top:170px;
+	width:350px;
+	margin-left:-175px;
+}
+#mailTestCodeButton,#mailTestCodeButton1{
+	line-height:30px;
+	border:0;
+	background:#ADEFEF;
+	border-radius:4px;
+	margin-left:5px;
+	width:70px;
+	color:#fff;
+}
+#mailTestCodeButton:hover,#mailTestCodeButton1:hover{
+	background:#DCF8FA;
+	color:#000;
+}
+#mailsubmit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:120px;
+	margin-bottom:5px;
+}
+#mailsubmit:hover{
+	background:#76DCE4;
+	color:#fff;
+}
+/*信用卡盒子*/
+#creditBox{
+	position:fixed;
+	left:50%;
+	top:170px;
+	width:350px;
+	margin-left:-175px;
+}
+#creditsubmit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:120px;
+	margin-bottom:5px;
+}
+#creditsubmit:hover{
+	background:#76DCE4;
+	color:#fff;
+}
+/*收货地址盒子*/
+#deliveryAddressBox{
+	position:fixed;
+	left:50%;
+	top:170px;
+	width:344px;
+	margin-left:-172px;
+}
+#deliveryaddresssubmit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:125px;
+	margin-bottom:5px;
+}
+#deliveryaddresssubmit:hover{
+	background:#76DCE4;
+	color:#fff;
+}
+
+
+/*头像*/
+.img_div{
+	width:100px;
+	height:100px;
+	border:1px solid #F3F3F3;
+	margin:5px 0px 5px 40px;
+	position:relative;
+}
+.displayPicture{
+	width:100px;
+	height:100px;
+	border:1px solid #F3F3F3;
+	margin:5px 0px 5px 0px;
+}
+.picture{
+	width:100%;
+	height:100%;
+}
+.picture:hover{
+	background:#CEFFFF;
+}
+.removebtn{
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:11;
+	border:0;
+	border-radius:50px;
+	width:15px;
+	height:15px;
+	color:#000;
+	background:#fff;
+}
+.removebtn:hover{
+	background:#000;
+	color:#fff;
+}
+#showimg_shade{
+	position:fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 150;
+	text-align: center;
+	background:#333;
+}
+#showimg{
+	width:600px; 
+	height:600px; 
+	margin-top:100px;
+}

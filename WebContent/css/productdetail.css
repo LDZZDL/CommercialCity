@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+#content{
+	padding:0;
+	width:72%;
+	margin:0px auto;
+}
+
+/*pageHeading*/
+#pageHeading{
+	background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+	height:30px;
+	padding-top:6px;
+	position:relative;
+}
+#pageHeading a{
+	color: #6C6C6C;
+	text-decoration: none;
+	font-size: 13px;
+}
+#pageHeading a:hover{
+	color:#63CEDA;
+}
+/*分*/
+#customerMarket{
+	position:absolute;
+	top:10px;
+	left:70px;
+}
+#shopperLogin{
+	position:absolute;
+	top:10px;
+	right:160px;
+}
+#shoppingCart1{
+	position:absolute;
+	top:10px;
+	right:380px;
+	display:none;
+}
+#personalMessage{
+	position:absolute;
+	top:10px;
+	right:270px;
+	display:none;
+}
+
+#customerLogin{
+	position:absolute;
+	top:10px;
+	right:280px;
+}
+#exit{
+	position:absolute;
+	top:10px;
+	right:75px;
+	display:none;
+}
+
+
+/*搜索框*/
+#searchDiv{
+	text-align:center;
+	height:35px;
+	margin:20px 0px 20px 0px;
+	/*border:1px solid #000;*/
+}
+#searchValue{
+	line-height:25px;
+	width:420px;
+	float:left;
+	height:31px;
+	line-height: 18px;
+	border: solid 2px #f50;
+	margin-left:170px;
+}
+#search{
+	float:left;
+	width: 80px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+	background:#f50;
+	color:#fff;
+	font-size:16px;
+}
+
+/*展示图片*/
+#productShowPicture{
+	width:350px;
+	height:350px;
+	border:1px solid #E5E5E5;
+	margin:20px;
+}
+/*展示图片放大*/
+#showimg_shade{
+	position:fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 150;
+	text-align: center;
+	background:#333;
+}
+#showimg{
+	width:800px; 
+	height:600px; 
+	margin-top:100px;
+}
+/*介绍图片*/
+#productIntroductionPictureOne,#productIntroductionPictureTwo,#productIntroductionPictureThree{
+	width:100%;
+}
+/*属性,行*/
+#productName{
+	font-size:16px;
+	font-weight:700;
+}
+.attribute{
+	font-size:12px;
+   /* border:1px solid #000;*/
+	display:inline-block;
+	margin-right:5px;
+	width:55px;
+	color:#6C6C6C;
+	vertical-align:middle;
+	margin-left:5px;
+}
+.kind{
+	/*border:1px solid #000;*/
+	margin-bottom:10px;
+}
+#productIntroduction{
+	font-size:12px;
+   /* border:1px solid #000;*/
+	color:#6C6C6C;
+	vertical-align:middle;
+}
+#quantity{
+	width:30px;
+	text-align:center;
+	width: 48px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+	color: #666;
+    border: 1px solid #CCC;
+    outline: 0;
+}
+/*价格，红色框*/
+#price{
+	background:#FFF2E8;
+	padding:10px 0px 10px 0px;
+}
+#productSale,#RMB{
+	font-size: 26px;
+    font-weight: 700;
+	color: #F40;
+	line-height: 26px;
+}
+/*按钮*/
+/*数量增减*/
+#numDecrease,#numIncrease{
+	color: #3C3C3C;
+    cursor:pointer;
+    background-color: #ededed;
+	width: 26px;
+    height: 26px;
+    border: 1px solid #ccc;
+    line-height: 26px;
+	text-align:center;
+	vertical-align:top;
+	font-family: tb-iconfont;
+    font-size: 12px;
+    font-style: normal;
+	font-weight:500;
+}
+/*购买*/
+#buyNow,#shoppingCart{
+	font-size:16px;
+	line-height:38px;
+	border-width:1px;
+	border-radius:2px;
+	border-style:solid;
+	text-align:center;
+	height:38px;
+	cursor:pointer;
+}
+#buyNow{
+	color: #E5511D;
+    border-color: #F0CAB6;
+    background: #FFE4D0;
+	width:130px;
+	margin:0px 10px 0px 5px;
+}
+#shoppingCart{
+	width: 170px;
+    color: #FFF;
+    border-color: #F40;
+    background: #F40;
+}
+
+/*登录盒子*/
+
+/*盒子标题*/
+.heading{
+	font-weight:400;
+	line-height:35px;
+	font-size:18px;
+	color:#666666;
+	margin-left:10px;
+}
+
+/*关闭盒子按钮*/
+#AcloseBtn{
+	font:"幼圆";
+	font-size:18px;
+	text-decoration:none;
+	color:#999999;
+	font-weight:bold;
+	float:right;
+	margin-right:10px;
+	margin-top:5px;
+}
+#AcloseBtn:hover{
+	color:#000;
+}
+/*阴影*/
+#mask{
+	border:none;
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	z-index:99;
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+/*盒子样式*/
+#loginBox{
+	display:none;
+	border:2px solid #444;
+	border-radius:7px;
+	z-index:100;
+	background:#fff;
+	position:fixed;
+	left:50%;
+	top:150px;
+	width:250px;
+	margin-left:-125px;
+}
+
+/*行*/
+.kind{
+	/*border:1px solid #000;*/
+	margin-top:10px;
+}
+#account1{
+	line-height:30px;
+	font-size:18px;
+	font-weight:400;
+	/*border:1px solid #000;*/
+	width:40px;
+	display:inline-block;
+	margin-left:20px;
+}
+#account{
+	height:30px;
+	line-height:30px;
+	width:150px;
+}
+#password1{
+	line-height:30px;
+	font-size:18px;
+	font-weight:400;
+	/*border:1px solid #000;*/
+	width:40px;
+	display:inline-block;
+	margin-left:20px;
+}
+#password{
+	height:30px;
+	line-height:30px;
+	width:150px;
+}
+
+
+/*按钮*/
+#submit{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:100px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:75px;
+	/*margin-bottom:5px;*/
+}
+#submit:hover{
+	background:#66b6ff;
+	border-color:#66b6ff;
+	color:#fff;
+}
+
+
+/*评论块*/
+#comment_div{
+	border:1px solid #E5E5E5;
+}
+/*评论*/
+.comment{
+	border:1px solid #EDEDED;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:15px;
+}
+.comment:hover{
+	border-color:#4375D1;
+}
+.commentName{
+	
+}
+.goodRate{
+	margin-left:300px;
+}
+.com{
+	display:block;
+	margin-top:8px;
+	font-size:14px;
+}
+.commentContent{
+	display:block;
+}
+/*评论翻页*/
+.previousPage,.nextPage{
+	border:1px solid #5E5E5E;
+	background:#fff;
+	color:#5E5E5E;
+	line-height:30px;
+	width:65px;
+	font-size:16px;
+	border-radius:2px;
+}
+.previousPage:hover,.nextPage:hover{
+	border-color:#000;
+	color:#000;
+}
+.pageNo,.totalPageNo{
+	font-size:18px;
+}

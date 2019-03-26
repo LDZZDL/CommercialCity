@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+#content{
+	margin:0px auto;
+	width:61%;
+}
+
+
+/*pageHeading*/
+#pageHeading{
+	background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+	height:30px;
+	padding-top:6px;
+	position:relative;
+}
+#pageHeading a{
+	color: #6C6C6C;
+	text-decoration: none;
+	font-size: 13px;
+}
+#pageHeading a:hover{
+	color:#63CEDA;
+}
+/*分*/
+#customerMarket{
+	position:absolute;
+	top:10px;
+	left:70px;
+}
+#shopperLogin{
+	position:absolute;
+	top:10px;
+	right:160px;
+}
+#shoppingCart{
+	position:absolute;
+	top:10px;
+	right:380px;
+}
+#personalMessage{
+	position:absolute;
+	top:10px;
+	right:270px;
+}
+#exit{
+	position:absolute;
+	top:10px;
+	right:75px;
+}
+
+
+/*收货地址*/
+#deliveryAddress{
+	/*border:1px solid #000;*/
+}
+.address{
+	line-height:35px;
+	border:1px solid #fff;
+	font-weight:100;
+}
+.address:hover{
+	background:#FFF0E8 !important;
+}
+.radio{
+	margin:0px 10px 0px 20px;
+}
+/*订单*/
+.shopName{
+	margin-top:20px;
+	line-height:30px;
+	font-size:17px;
+	border-bottom:1px dashed #b2d1ff;
+}
+#productName{
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 3px solid #b2d1ff;
+    font-size: 14px;
+	color: #6C6C6C;
+	width:280px;
+	display:inline-block;
+	vertical-align: bottom;
+}
+#productSale{
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 3px solid #b2d1ff;
+    font-size: 14px;
+	color: #6C6C6C;
+	width:157px;
+	display:inline-block;
+	vertical-align: bottom;
+}
+#quantity{
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 3px solid #b2d1ff;
+    font-size: 14px;
+	color: #6C6C6C;
+	width:157px;
+	display:inline-block;
+	vertical-align: bottom;
+}
+#total{
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 3px solid #b2d1ff;
+    font-size: 14px;
+	color: #6C6C6C;
+	width:157px;
+	display:inline-block;
+	vertical-align: bottom;
+}
+.product{
+	/*border:1px solid #36F;*/
+	height:70px;
+	background:#FBFCFF;
+}
+.productImg{
+	 width:50px; 
+	 height:50px;
+	 border:0;
+	 float:left;
+	 margin:10px 10px 10px 10px;
+	 cursor:pointer;
+}
+.productName{
+	margin-top:10px;
+	color: #3c3c3c;
+    width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size:15px;
+	display:inline-block;
+	margin-right:11px;
+}
+.productName:hover{
+	color: #f40;
+}
+.productSale{
+	margin-top:10px;
+	color: #3c3c3c;
+    width:155px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:15px;
+	display:inline-block;
+	text-align:center;
+}
+.quantity{
+	margin-top:10px;
+    width:155px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:15px;
+	display:inline-block;
+	text-align:center;
+}
+.total{
+	margin-top:10px;
+    width:155px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:15px;
+	display:inline-block;
+	text-align:center;
+	font-weight: 700;
+    color: #f40;
+}
+.shopTotalPriceBlock{
+	border-top:2px solid #fff;
+	border-bottom:1px dashed #b2d1ff;
+	background:#F2F7FF;
+	text-align:right;
+	padding-right:20px;
+}
+.RMBP{
+	color: #333;
+    line-height: 45px;
+	font-size:14px;
+}
+.RMB{
+	margin-right: 3px;
+    color: #999;
+    font-family: verdana,arial;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 45px;
+}
+.shopTotalPrice{
+	color: #f40;
+    font-family: verdana,arial;
+    font-size: 20px;
+    font-weight:550;
+    line-height: 45px;
+}
+/*总价框*/
+#totalPriceBlock{
+	border:1px solid #FF4400;
+	text-align:right;
+	padding-right:10px;
+	margin-top:20px;
+	line-height:50px;
+	float:right;
+	width:200px;
+}
+#RMBP{
+	font-weight: 700;
+    color: #333;
+    text-align: right;
+	font-size:13px;
+}
+#RMB{
+	font-size: 26px;
+    margin-right: 4px;
+    color: #999;
+	font-family: verdana,arial;
+}
+#totalPrice{
+	color: #f40;
+    font: 700 26px tahoma;
+}
+#submitOrderBlock{
+	display:inline-block;
+	position:absolute;
+	top:77px;
+	right:0px;
+	border:none;
+}
+#orderMessage{
+	margin-top:100px;
+}
+#submitOrder{
+	width: 120px;
+    height: 39px;
+    vertical-align: middle;
+    line-height: 39px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background: #f40;
+    color: #fff;
+	border:0;
+}
